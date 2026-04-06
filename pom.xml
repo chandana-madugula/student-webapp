@@ -21,9 +21,17 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
+<<<<<<< HEAD
             </plugin>
         </plugins>
 
+=======
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
+>>>>>>> f617085 (Initial commit)
     </build>
 
 </project>
