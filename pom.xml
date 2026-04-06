@@ -15,6 +15,7 @@
 
     <build>
         <finalName>student-webapp</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -22,6 +23,7 @@
                 <version>3.3.2</version>
             </plugin>
         </plugins>
+
     </build>
 
 </project>
